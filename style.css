@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+a:hover{
+    cursor: pointer;
+    opacity: 0.9;
+    scale: 1.05;
+    transition: 1s;
+}
+
+.cabecalho{
+    display: flex;
+    color: blueviolet;
+    background-color: #232323;
+    height: 90px;
+    text-align: center;
+    align-items: center;
+}
+
+.pesquisa{
+    margin-left: 120px;
+    display: flex;
+}
+
+#pesquisa{
+    height: 35px;
+    width: 180px;
+}
+
+nav{
+    display: flex;
+}
+
+.nav-titulo{
+  
+    font-size: 35px;
+    margin-left: 12px;
+}
+
+.especificadores{
+    display: flex;
+    margin-left: 200px;
+    gap: 50px;
+    align-items: center;
+    text-align: center;
+    margin-top: 8px;
+}
+
+#letra{
+    color: #F4D35E;
+    font-size: 42px;
+}
+
+#palavra{
+    color: blueviolet;
+}
+
+#botao:hover{
+    border: solid 2px blueviolet;
+    scale: 1.1;
+    transition: 1s;
+}
+
+#botao{
+    margin-left: 30px;
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+#botao2{
+    width: 130px;
+    height: 45px;
+    border: solid 2px blueviolet;
+    border-radius: 40px;
+    background-color: #F4D35E;
+}
+
+#botao2:hover{
+    scale: 1.1;
+    transition: 1s;
+}
+
+main{
+    display: flex;
+    margin-left: 623px;
+    margin-top: 250px;
+
+}
+
+body{
+    background-image: url(img/restaurant-5510672_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

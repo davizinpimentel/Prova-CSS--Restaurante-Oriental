@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+a:hover{
+    cursor: pointer;
+    opacity: 0.9;
+    scale: 1.05;
+    transition: 1s;
+}
+
+.cabecalho{
+    display: flex;
+    color: blueviolet;
+    background-color: #232323;
+    height: 90px;
+    text-align: center;
+    align-items: center;
+}
+
+.pesquisa{
+    margin-left: 120px;
+    display: flex;
+}
+
+#pesquisa{
+    height: 35px;
+    width: 180px;
+}
+
+nav{
+    display: flex;
+}
+
+.nav-titulo{
+  
+    font-size: 35px;
+    margin-left: 12px;
+}
+
+.especificadores{
+    display: flex;
+    margin-left: 200px;
+    gap: 50px;
+    align-items: center;
+    text-align: center;
+    margin-top: 8px;
+}
+
+#letra{
+    color: #F4D35E;
+    font-size: 42px;
+}
+
+#palavra{
+    color: blueviolet;
+}
+
+#botao:hover{
+    border: solid 2px blueviolet;
+    scale: 1.1;
+    transition: 1s;
+}
+
+#botao{
+    margin-left: 30px;
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+body{
+    background-image: url(img/restaurant-5510672_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.produtos2 img{
+    width: 250px;
+    height: 220px;
+    margin-top: 30px;
+}
+
+.produtos2{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: 450px;
+    border: solid 3px #F4D35E;
+    border-radius: 10px;
+    background-color: #232323;
+}
+
+.produtos1{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 90px;
+}
+
+h2{
+    margin-top: 10px;
+    color: #F4D35E;
+}
+
+p{
+    margin-top: 5px;
+}
+
+#detalhes{
+    margin-top: 15px;
+    margin-left: 10px;
+    height: 45px;
+    width: 100px;
+    border-radius: 5px;
+    border: solid 2px white;
+    background-color: #F4D35E;
+}
